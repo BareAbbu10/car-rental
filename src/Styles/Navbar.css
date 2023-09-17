@@ -1,0 +1,32 @@
+/* .Navbar{
+    width: 66%;
+    margin: auto;
+} */
+.icons-navbar {
+  font-weight: 700;
+  list-style: none;
+  gap: 2.1rem;
+}
+.links-nav {
+  padding: 4px 6px;
+  border-radius: 10px;
+}
+.links-nav:hover {
+  background-color: rgb(217, 56, 217);
+  cursor: pointer;
+  transition: ease-in 0.15s;
+}
+.register-btn {
+  height: 4vh;
+  width: 5vw;
+  background-Color: #d938d9;
+}
+.register-btn:hover {
+    background-Color: #c500c5;
+  cursor: pointer;
+}
+
+.sign-btn:hover {
+  color: rgb(228, 0, 228);
+  transition: ease-in 0.2s;
+}
