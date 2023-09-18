@@ -5,7 +5,7 @@
 .icons-navbar {
   font-weight: 700;
   list-style: none;
-  gap: 2.1rem;
+  gap: 2rem;
 }
 .links-nav {
   padding: 4px 6px;
@@ -17,9 +17,14 @@
   transition: ease-in 0.15s;
 }
 .register-btn {
-  height: 4vh;
-  width: 5vw;
+  padding: 0.7rem 2rem;
+  color: white;
+  border-radius: 3px;
   background-Color: #d938d9;
+  box-shadow: 0 10px 15px 0 rgba(61, 27, 20, 0.35);
+}
+.sign-btn{
+  padding: 1.5rem 1.5rem;
 }
 .register-btn:hover {
     background-Color: #c500c5;
