@@ -1,7 +1,4 @@
-/* .Navbar{
-    width: 66%;
-    margin: auto;
-} */
+
 .icons-navbar {
   font-weight: 700;
   list-style: none;
@@ -29,6 +26,8 @@
 .register-btn:hover {
     background-Color: #c500c5;
   cursor: pointer;
+  color: white;
+  box-shadow: 5px 10px 20px 5px rgba(61, 27, 20, 0.35);
 }
 
 .sign-btn:hover {

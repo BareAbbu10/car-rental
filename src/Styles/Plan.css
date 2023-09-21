@@ -1,0 +1,9 @@
+.Plan-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Plan-content-bottom{
+    display: flex;
+    justify-content: space-around;
+}
