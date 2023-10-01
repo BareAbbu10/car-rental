@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio1/static/css/main.49823e65.css",
+    "main.js": "/portfolio1/static/js/main.6992e1b6.js",
+    "static/js/787.dbbd0357.chunk.js": "/portfolio1/static/js/787.dbbd0357.chunk.js",
+    "static/media/main.png": "/portfolio1/static/media/main.70cd75042bdf42515d92.png",
+    "static/media/Joe.jpg": "/portfolio1/static/media/Joe.9cabab8cf1a7272abf75.jpg",
+    "static/media/Car-Hero-removebg-preview.png": "/portfolio1/static/media/Car-Hero-removebg-preview.2ad59ec56a66febdc476.png",
+    "static/media/vecteezy_documentation-vector-icon-design_25593128.jpg": "/portfolio1/static/media/vecteezy_documentation-vector-icon-design_25593128.23c0d5a34d68014e0fe5.jpg",
+    "static/media/Civic-removebg-preview.png": "/portfolio1/static/media/Civic-removebg-preview.e8fd3c7fa59a586cf0b7.png",
+    "static/media/WagonR-removebg-preview.png": "/portfolio1/static/media/WagonR-removebg-preview.1b7045f57b1e5fd9d0c9.png",
+    "static/media/city-removebg-preview.png": "/portfolio1/static/media/city-removebg-preview.c6a2cfa9e1e37a455074.png",
+    "static/media/Corolla-removebg-preview.png": "/portfolio1/static/media/Corolla-removebg-preview.91144d64e9f67ec8cecc.png",
+    "static/media/1656318.jpg": "/portfolio1/static/media/1656318.310931ee9a09d97d8d5c.jpg",
+    "static/media/Mehran-removebg-preview.png": "/portfolio1/static/media/Mehran-removebg-preview.b4b3add457c11a32bb2e.png",
+    "static/media/service.jpg": "/portfolio1/static/media/service.50e988a865cb7e4b0cbe.jpg",
+    "static/media/hero-bg.png": "/portfolio1/static/media/hero-bg.3b5f7a2502f0f81d1490.png",
+    "static/media/messi.jpg": "/portfolio1/static/media/messi.b3417270cb7380de4397.jpg",
+    "static/media/police-car-light-svgrepo-com.svg": "/portfolio1/static/media/police-car-light-svgrepo-com.7e1ef95800aa8bd5fff41e436aa39677.svg",
+    "index.html": "/portfolio1/index.html",
+    "main.49823e65.css.map": "/portfolio1/static/css/main.49823e65.css.map",
+    "main.6992e1b6.js.map": "/portfolio1/static/js/main.6992e1b6.js.map",
+    "787.dbbd0357.chunk.js.map": "/portfolio1/static/js/787.dbbd0357.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49823e65.css",
+    "static/js/main.6992e1b6.js"
+  ]
+}
