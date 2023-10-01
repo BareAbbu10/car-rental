@@ -1,0 +1,31 @@
+.Banner-section{
+    background-color: #2d2d2d;
+    display: flex;
+    height: auto;
+    margin: 9rem 0;
+    padding: 3rem 0;
+    text-align: center;
+    width: 100%;
+}
+.banner-content {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+}
+.banner-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.banner-content-text h2 {
+    font-size: 3.2rem;
+    line-height: 0.8;
+    font-weight: 700;
+}
+.banner-content-text p {
+    font-size: 1.6rem;
+}
+.banner-content-text span {
+    color: #d938d9;
+    font-weight: 500;
+}

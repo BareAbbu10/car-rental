@@ -17,8 +17,8 @@ export default class HeroSection extends Component {
             Your dream cars at Unbeatable prices, unlimited miles, flexible
             pick-up options and much more.{" "}
           </p>
-          <div className="my-3">
-            <button className="btn-Hero-1">
+          <div className="btn-hero d-flex my-3">
+            <button className=" btn-Hero-1">
               <strong>Book Ride</strong> &nbsp;
               {
                 <svg
@@ -42,7 +42,7 @@ export default class HeroSection extends Component {
               }
             </button>
             <button className="btn-Hero-2 mx-3">
-              <strong>Learn More</strong>&nbsp;
+              <strong>Learn More</strong>
               {
                 <svg
                   width="25px"

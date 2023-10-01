@@ -1,0 +1,105 @@
+.choose-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width: 1100px) {
+        width: 80%;
+        margin: auto;
+          }
+          @media(max-width: 700px){
+            width: 80%;
+        }
+}
+.img-choose{
+    @media (max-width: 1100px) {
+        width: 100%;
+        margin: auto;
+          }
+          @media(max-width: 820px){
+            height: 80%;
+    
+            }
+}
+.text-choose-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    width: 100%;
+    @media(max-width: 700px){
+        gap: 3rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.text-choose-container p{
+    color: #706f7b;
+    @media(max-width: 700px){
+        font-size: 0.8rem;
+    }
+}
+.text-choose-left{
+    color: #010103;
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;
+    text-align: left;
+    gap: 0.2rem;
+}
+.text-choose-left h4{
+
+@media(max-width: 700px){
+    font-weight: 500;
+}
+
+}
+.text-choose-left h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    @media(max-width: 700px){
+        font-size: 1.8rem;
+    }
+}
+.text-choose-right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 30rem;
+
+}
+.text-choose-right h4{
+    font-weight: 800;
+    font-size: 1.7rem;
+    @media(max-width: 700px){
+        font-size: 1.2rem;
+    }
+}
+.text-choose-left button{
+    width: 190px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #d938d9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+}
+.text-choose-left button:hover{
+    background-color: #c225c2;
+    cursor: pointer;
+    box-shadow: 0 3px 10px 0 black;
+}
+
+.text-choose-right-box-text{
+ margin: 0 30px;
+}
+.siren{
+    @media(max-width: 700px){
+        width: 10%;
+    }
+    @media(max-width: 650px){
+        width: 15%;
+    }
+
+}
