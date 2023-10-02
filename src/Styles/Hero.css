@@ -19,7 +19,7 @@
   @media(max-width: 900px){
     width: 100%;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
   @media(max-width: 300px){
     margin-bottom: 0;
@@ -49,6 +49,9 @@
 .Hero-left h1,
 .Hero-left p {
   padding: 5px;
+  @media(max-width:600px){
+    padding: 2px;
+  }
 }
 .Hero-right {
   width: 50%;
@@ -58,6 +61,14 @@
   @media(max-width: 900px){
     visibility: hidden;
     width: 0%;
+  }
+}
+.btn-hero{
+  @media(max-width:900px){
+    margin: auto;
+  }
+  @media(max-width:450px){
+    flex-direction: column;
   }
 }
 .btn-Hero-1 {
@@ -90,6 +101,11 @@ font-size: 0.5rem;
     width: 200px;
     height: 50px;
     font-size: 0.5rem;
+      }
+      @media(max-width:450px){
+        margin-top: 5px;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
       }
 }
 .btn-Hero-2:hover {

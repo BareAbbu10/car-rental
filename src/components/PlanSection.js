@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import CarImg from "../media/vecteezy_documentation-vector-icon-design_25593128.jpg"
-import CustomerService from "../media/service.jpg"
+import CustomerService from "../media/service-removebg-preview.png"
 import HappyDriver from "../media/1656318.jpg"
 export default class PlanSection extends Component {
   render() {

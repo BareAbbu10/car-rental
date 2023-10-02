@@ -5,15 +5,16 @@ export default class Navbar extends Component {
     super();
     this.state = {
       signIn: "hidden",
-      NavHeight: "",
+      NavHeight: "40px",
     };
   }
+  
 
   toggleSignInVisibility = () => {
-    if (window.innerWidth <= 900) {
+    if (window.innerWidth <= 1000) {
       this.setState((prevState) => ({
-        signIn: prevState.signIn === "hidden" ? "visible" : "hidden",
-        NavHeight: prevState.signIn === "hidden" ? "40vh" : "30px",
+        signIn: prevState.signIn === "visible" ? "hidden" : "visible",
+        NavHeight: prevState.signIn === "hidden" ? "40vh" : "40px",
       }));
     }
   };
@@ -23,7 +24,7 @@ export default class Navbar extends Component {
     window.addEventListener("resize", this.toggleSignInVisibility);
 
     // Initialize the state based on the initial screen width
-    if (window.innerWidth > 900) {
+    if (window.innerWidth > 1000) {
       this.setState({
         signIn: "visible",
         NavHeight: "",
