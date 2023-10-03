@@ -47,7 +47,7 @@
   }
 
 .links-nav:hover {
-  background-color: rgb(217, 56, 217);
+  background-color: rgb(245, 112, 245);
   cursor: pointer;
   transition: ease-in 0.15s;
 }

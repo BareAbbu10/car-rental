@@ -13,7 +13,7 @@ export default class PlanSection extends Component {
               <h1> <strong>Quick & easy car booking</strong></h1>
             </div>
             <div className="Plan-content-bottom">
-              <div>
+              <div className="Plan-content-bottom-card">
                <img src={CarImg} alt="YURRR" width="120px" height="120px"></img>
                 <h3><strong>Select your Ride</strong></h3>
                 <p>
@@ -21,7 +21,7 @@ export default class PlanSection extends Component {
                   We have the<br/> perfect car to meet your needs
                 </p>
               </div>
-              <div>
+              <div className="Plan-content-bottom-card">
               <img src={CustomerService} alt="YURRR" width="120px" height="120px"></img>
                 <h3><strong>Let us Contact you</strong></h3>
                 <p>
@@ -29,7 +29,7 @@ export default class PlanSection extends Component {
                   booking for you in no time <br/>so you can get on with your trip
                 </p>
               </div>
-              <div>
+              <div className="Plan-content-bottom-card">
               <img src={HappyDriver} alt="YURRR" width="120px" height="120px"></img>
                 <h3><strong>Happy Driving</strong></h3>
                 <p>

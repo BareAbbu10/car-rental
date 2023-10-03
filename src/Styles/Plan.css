@@ -6,11 +6,13 @@
 .Plan-content-bottom{
     margin-top: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     @media(max-width: 650px){
         flex-direction: column;
     }
-
+}
+.Plan-content-bottom-card{
+    width: 33%;
 }
 .Plan-content-bottom img{
     margin: 40px auto;
