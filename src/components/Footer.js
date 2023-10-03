@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../Styles/Footer.css';
  import { IconMail, IconPhoneCall } from "@tabler/icons-react";
 export default class Footer extends Component {
   render() {

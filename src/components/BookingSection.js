@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import '../Styles/Booking.css';
 import { IconCalendarEvent } from "@tabler/icons-react";
 import { IconCar } from "@tabler/icons-react";
 import { IconMapPinFilled } from "@tabler/icons-react";

@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import '../Styles/Choose.css';
 import BG from "../media/main.png";
 import { IconCoin } from "@tabler/icons-react";
 import { IconEyeDollar } from "@tabler/icons-react";
-import Siren from "../media/police-car-light-svgrepo-com.svg";
+import { IconCaravan } from "@tabler/icons-react";
 
 export default class ChooseSection extends Component {
   render() {
@@ -10,7 +11,13 @@ export default class ChooseSection extends Component {
       <section className="choose-section">
         <div className="container">
           <div className="choose-container">
-            <img src={BG} className="img-choose" height="500" width="1100" alt="YURRR"></img>
+            <img
+              src={BG}
+              className="img-choose"
+              height="500"
+              width="1100"
+              alt="YURRR"
+            ></img>
             <div className="text-choose-container d-flex">
               <div className="text-choose-left">
                 <h4>Why Choose Us</h4>
@@ -27,7 +34,12 @@ export default class ChooseSection extends Component {
               </div>
               <div className="text-choose-right">
                 <div className="text-choose-right-box d-flex">
-                  <img src={Siren} height="100px" width="60px" alt="Siren" className="siren"></img>
+                  
+                    <IconCaravan
+                    height="100px"
+                    width="120px"/>
+                    
+                  
                   <div className="text-choose-right-box-text">
                     <h4>Cross Country Drive</h4>
                     <p>
@@ -37,7 +49,7 @@ export default class ChooseSection extends Component {
                   </div>
                 </div>
                 <div className="text-choose-right-box d-flex">
-                  <IconCoin height="100px" width="120px"/>
+                  <IconCoin height="100px" width="120px" />
                   <div className="text-choose-right-box-text">
                     <h4>All Inclusive pricing</h4>
                     <p>
@@ -47,7 +59,7 @@ export default class ChooseSection extends Component {
                   </div>
                 </div>
                 <div className="text-choose-right-box d-flex">
-                  <IconEyeDollar height="100px" width="120px"/>
+                  <IconEyeDollar height="100px" width="120px" />
                   <div className="text-choose-right-box-text">
                     <h4>No Hidden Charges</h4>
                     <p>

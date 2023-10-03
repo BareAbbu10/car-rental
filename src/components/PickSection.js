@@ -1,4 +1,5 @@
 import { useState } from "react";
+import '../Styles/pick.css';
 import CarBox from "./CarBox";
 import { CAR_DATA } from "./CarData";
 

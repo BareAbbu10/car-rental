@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import '../Styles/Review.css';
 import { IconQuote } from "@tabler/icons-react";
 import Messi from "../media/messi.jpg";
 import joe from "../media/Joe.jpg";

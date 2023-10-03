@@ -1,50 +1,54 @@
 import React, { Component } from "react";
+import '../Styles/Navbar.css';
 
 export default class Navbar extends Component {
   constructor() {
     super();
     this.state = {
-      signIn: "hidden",
+      isSignInVisible: false, // Start with the menu hidden
       NavHeight: "40px",
+      isSmallScreen: window.innerWidth <= 1000,
     };
   }
-  
 
   toggleSignInVisibility = () => {
-    if (window.innerWidth <= 1000) {
-      this.setState((prevState) => ({
-        signIn: prevState.signIn === "visible" ? "hidden" : "visible",
-        NavHeight: prevState.signIn === "hidden" ? "40vh" : "40px",
-      }));
-    }
+    this.setState((prevState) => ({
+      isSignInVisible: !prevState.isSignInVisible,
+      NavHeight: prevState.isSignInVisible ? "40px" : "40vh",
+    }));
   };
 
   componentDidMount() {
-    // Add an event listener to track screen width changes
-    window.addEventListener("resize", this.toggleSignInVisibility);
-
-    // Initialize the state based on the initial screen width
-    if (window.innerWidth > 1000) {
-      this.setState({
-        signIn: "visible",
-        NavHeight: "",
-      });
-    }
+    window.addEventListener("resize", this.handleResize);
+    this.handleResize();
   }
 
   componentWillUnmount() {
-    // Remove the event listener when the component is unmounted
-    window.removeEventListener("resize", this.toggleSignInVisibility);
+    window.removeEventListener("resize", this.handleResize);
   }
 
+  handleResize = () => {
+    const isSmallScreen = window.innerWidth <= 1000;
+    this.setState({ isSmallScreen });
+    if (isSmallScreen) {
+      this.setState({
+        isSignInVisible: false, // Hide the menu on smaller screens
+        NavHeight: "40px",
+      });
+    }
+  };
+
   render() {
+    const isSmallScreen = this.state.isSmallScreen;
+    const isSignInVisible = this.state.isSignInVisible;
+
     return (
       <section className="Navbar-Section">
         <div className="Navbar container d-flex justify-content-between my-3" style={{ height: this.state.NavHeight }}>
           <div>
             <h1 style={{ margin: "auto" }}>Logo</h1>
           </div>
-          <ul className="icons-navbar d-flex" style={{ visibility: this.state.signIn }} id="icon-navbar">
+          <ul className="icons-navbar d-flex" style={{ visibility: !isSmallScreen || isSignInVisible ? "visible" : "hidden" }} id="icon-navbar">
             <li className="fadeIn links-nav">Home</li>
             <li className="fadeIn links-nav">About</li>
             <li className="fadeIn links-nav">Vehicle</li>
@@ -56,7 +60,7 @@ export default class Navbar extends Component {
             <button
               type="button"
               className="btn sign-btn"
-              style={{ fontWeight: "700", visibility: this.state.signIn }}
+              style={{ fontWeight: "700", visibility: !isSmallScreen || isSignInVisible ? "visible" : "hidden" }}
             >
               Sign In
             </button>
@@ -65,7 +69,7 @@ export default class Navbar extends Component {
               className="btn register-btn"
               style={{
                 fontWeight: "700",
-                visibility: this.state.signIn,
+                visibility: !isSmallScreen || isSignInVisible ? "visible" : "hidden",
               }}
             >
               Register
@@ -81,5 +85,3 @@ export default class Navbar extends Component {
     );
   }
 }
-
-// Your CSS styles remain the same

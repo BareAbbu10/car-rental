@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import '../Styles/Banner.css';
 
 export default class BannerSection extends Component {
   render() {

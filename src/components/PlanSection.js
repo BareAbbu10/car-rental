@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import '../Styles/Plan.css';
 import CarImg from "../media/vecteezy_documentation-vector-icon-design_25593128.jpg"
 import CustomerService from "../media/service-removebg-preview.png"
 import HappyDriver from "../media/1656318.jpg"
