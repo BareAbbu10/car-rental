@@ -39,10 +39,11 @@
 }
 
 .links-nav {
-  padding: 0px 6px;
+  padding: 4px 12px;
   border-radius: 10px;
-  @media(max-width: 1000px){
+  @media(max-width: 1200px){
     text-align: center;
+    padding: 4px 6px;
   }
   @media(max-width: 400px){
     border: 1px solid black;
@@ -51,7 +52,7 @@
   }
 
 .links-nav:hover {
-  background-color: rgb(245, 112, 245);
+  background-color: rgba(217, 56, 217, .2);
   cursor: pointer;
   transition: ease-in 0.15s;
 }
@@ -63,6 +64,7 @@
   box-shadow: 0 10px 15px 0 rgba(61, 27, 20, 0.35);
   @media(max-width:1000px){
     padding: 0.3rem 0.6rem;
+    margin-top: 15px;
    
   }
 }
@@ -70,7 +72,7 @@
   padding: 1.5rem 1.5rem;
   @media(max-width:1000px){
     padding: 0.3rem 0.6rem;
-    
+    margin-top: 15px;
   } 
 }
 .register-btn:hover {
