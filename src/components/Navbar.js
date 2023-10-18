@@ -7,7 +7,7 @@ export default class Navbar extends Component {
     this.state = {
       isSignInVisible: false, // Start with the menu hidden
       NavHeight: "40px",
-      isSmallScreen: window.innerWidth <= 1000,
+      isSmallScreen: window.innerWidth <= 1020,
     };
   }
 
@@ -28,7 +28,7 @@ export default class Navbar extends Component {
   }
 
   handleResize = () => {
-    const isSmallScreen = window.innerWidth <= 1000;
+    const isSmallScreen = window.innerWidth <= 1020;
     this.setState({ isSmallScreen });
     if (isSmallScreen) {
       this.setState({
