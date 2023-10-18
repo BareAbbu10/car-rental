@@ -28,9 +28,7 @@
     margin: auto;
 width: 100%;
    }
-  @media(max-width: 300px){
-    margin-bottom: 0;
-  }
+  
 }
 .Hero-left h5 {
   font-size: 1.5rem;
