@@ -7,6 +7,7 @@
   width: 70%; 
   @media(max-width: 1000px){
    width: 100%;
+   height: 90vh;
   }
 }
 .Hero-bg {
@@ -19,7 +20,7 @@
   justify-content: center;
   flex-direction: column;
   width: 45%;
-  @media(max-width: 900px){
+  @media(max-width: 920px){
     width: 100%;
     text-align: center;
     margin-bottom: 100px;
@@ -28,19 +29,35 @@
     margin: auto;
 width: 100%;
    }
+   @media (max-width: 920px) and (max-height: 550px) {
+    margin-bottom: 50px;
+   }
+   @media (max-width: 700px) and (max-height: 300px) {
+    margin-bottom: 30px;
+   }
   
 }
 .Hero-left h5 {
   font-size: 1.5rem;
   @media(max-width: 650px){
-    font-size: 1.2rem;
-  }
+    font-size: 1.2rem;}
+    @media (max-width: 800px) and (max-height: 400px) {
+      font-size: 1.2rem;
+     }
+     
+  
 }
 .Hero-left h1 {
   font-size: 3rem;
   @media(max-width: 1050px){
     font-size: 2rem;
   }
+  @media (max-width: 800px) and (max-height: 400px) {
+    font-size: 1.5rem;
+   }
+   @media (max-width: 700px) and (max-height: 300px) {
+    font-size: 1.3rem;
+   }
 }
 .Hero-left h1 span {
   color: #af1aaf;
@@ -49,6 +66,9 @@ width: 100%;
   color: #706f7b;
   font-weight: 500;
   font-size: 1rem;
+  @media (max-width: 700px) and (max-height: 300px) {
+    font-size: 0.8rem;
+   }
 }
 .Hero-left h5,
 .Hero-left h1,
@@ -57,13 +77,16 @@ width: 100%;
   @media(max-width:600px){
     padding: 2px;
   }
+  @media (max-width: 700px) and (max-height: 300px) {
+    padding: 0px;
+   }
 }
 .Hero-right {
   width: 50%;
   margin-left: 25px;
   flex-direction: column;
   justify-content: center;
-  @media(max-width: 900px){
+  @media(max-width: 920px){
     visibility: hidden;
     width: 0%;
     margin-left: 0px;
@@ -71,7 +94,7 @@ width: 100%;
 
 }
 .btn-hero{
-  @media(max-width:900px){
+  @media(max-width:920px){
     margin: auto;
   }
   @media(max-width:525px){
@@ -90,6 +113,10 @@ width: 200px;
 height: 50px;
 font-size: 1rem;
   }
+  @media (max-width: 700px) and (max-height: 300px) {
+    width: 10rem;
+    height: 3rem;
+   }
 }
 .btn-Hero-1:hover {
   background-color: #af1aaf;
@@ -114,6 +141,10 @@ font-size: 1rem;
         margin-right: 0 !important;
         margin-left: 0 !important;
       }
+      @media (max-width: 700px) and (max-height: 300px) {
+        width: 10rem;
+        height: 3rem;
+       }
 }
 .btn-Hero-2:hover {
   color: black;
