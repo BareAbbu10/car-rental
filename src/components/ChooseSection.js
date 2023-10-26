@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import '../Styles/Choose.css';
+import "../Styles/Choose-responsive.css"
 import BG from "../media/main.png";
 import { IconCoin } from "@tabler/icons-react";
 import { IconEyeDollar } from "@tabler/icons-react";
