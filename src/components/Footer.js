@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../Styles/Footer.css';
+import "../Styles/Footer-responsive.css"
  import { IconMail, IconPhoneCall } from "@tabler/icons-react";
 export default class Footer extends Component {
   render() {

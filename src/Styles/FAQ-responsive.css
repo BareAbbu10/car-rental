@@ -1,0 +1,41 @@
+/* MW: 1100px */
+
+@media (max-width: 1100px) {
+  .faq-content-bottom {
+    width: 30rem;
+  }
+  .accordion-item button {
+    width: 30rem;
+  }
+}
+
+
+
+
+/* MW: 650px */
+
+@media (max-width: 650px) {
+  .faq-content-bottom {
+    width: 20rem;
+    align-self: center;
+  }
+  .accordion-item button {
+    width: 20rem;
+    align-self: center;
+  }
+}
+
+
+
+/* MW: 300px */
+
+@media (max-width: 300px) {
+  .faq-content-bottom {
+    width: 10rem;
+    align-self: center;
+  }
+  .accordion-item button {
+    width: 10rem;
+    align-self: center;
+  }
+}

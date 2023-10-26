@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import '../Styles/FAQ.css';
+import "../Styles/FAQ-responsive.css"
 
 export default class FaqSection extends Component {
   render() {
