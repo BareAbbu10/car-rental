@@ -1,0 +1,82 @@
+/* MW: 1100px */
+
+@media (max-width: 1100px) {
+  .pick-container__car-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .pick-car img {
+    width: 400px;
+  }
+  .pick-box {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+}
+
+
+
+
+
+/* MW: 800px */
+
+@media (max-width: 800px) {
+  .pick-car img {
+    width: 280px;
+    height: 300px;
+    margin-top: 50px;
+  }
+}
+
+
+
+
+/* MW: 650px */
+
+@media (max-width: 650px) {
+  .box-cars {
+    gap: 3rem;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pick-box button {
+    font-size: 0.9rem;
+  }
+  .pick-description {
+    width: 66%;
+  }
+  .pick-description__price {
+    width: 50vw;
+    font-size: 0.8rem;
+  }
+  .pick-description__table {
+    width: 50vw;
+    font-size: 0.8rem;
+  }
+  .cta-btn {
+    width: 50vw;
+    font-size: 1rem;
+  }
+  .pick-car img {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+
+
+/* MW: 300px */
+@media (max-width: 300px) {
+  .pick-box button {
+    font-size: 0.5rem;
+    align-self: center;
+  }
+  .cta-btn {
+    width: 50vw;
+    font-size: 0.8rem;
+  }
+}

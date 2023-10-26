@@ -1,0 +1,129 @@
+/* MW: 1000px */
+
+
+@media (max-width: 1000px) {
+  #Home {
+    width: 100%;
+    height: 90vh;
+  }
+  .Hero-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    align-items: center;
+  }
+  .Hero-left h1 {
+    font-size: 2rem;
+  }
+  .Hero-right {
+    visibility: hidden;
+    width: 0%;
+    margin-left: 0px;
+  }
+}
+
+
+
+/* MW: 650px */
+
+@media (max-width: 650px) {
+  .Hero-left h5 {
+    font-size: 1.2rem;
+  }
+  .Hero-left h5,
+  .Hero-left h1,
+  .Hero-left p {
+    padding: 2px;
+  }
+  .btn-Hero-1 {
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+  }
+  .btn-Hero-2 {
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+/* MW: 525px */
+
+@media (max-width: 525px) {
+  .btn-Hero-2 {
+    margin-top: 5px;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .btn-hero {
+    flex-direction: column;
+  }
+}
+
+
+
+
+/* MW: 400px */
+
+@media (max-width: 400px) {
+  .Hero-left {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+
+
+
+/* MW: 920px  MH: 550px*/
+
+@media (max-width: 920px) and (max-height: 550px) {
+  .Hero-left {
+    margin-bottom: 50px;
+  }
+}
+
+
+
+/* MW: 800px  MH: 400px*/
+
+@media (max-width: 800px) and (max-height: 400px) {
+  .Hero-left h5 {
+    font-size: 1.2rem;
+  }
+  .Hero-left h1 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+/* MW: 700px  MH: 300px*/
+
+@media (max-width: 700px) and (max-height: 300px) {
+  .Hero-left {
+    margin-bottom: 30px;
+  }
+  .Hero-left h1 {
+    font-size: 1.3rem;
+  }
+  .Hero-left p {
+    font-size: 0.8rem;
+  }
+  .Hero-left h5,
+  .Hero-left h1,
+  .Hero-left p {
+    padding: 0px;
+  }
+  .btn-Hero-1 {
+    width: 10rem;
+    height: 3rem;
+  }
+  .btn-Hero-2 {
+    width: 10rem;
+    height: 3rem;
+  }
+}

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React from 'react';
 import '../Styles/pick.css';
+import "../Styles/Pick-responsive.css"
 import CarBox from "./CarBox";
 import { CAR_DATA } from "./CarData";
 

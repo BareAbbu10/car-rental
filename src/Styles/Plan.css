@@ -3,27 +3,17 @@
     flex-direction: column;
     text-align: center;
 }    
+
 .Plan-content-bottom{
     margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
-    @media(max-width:920px){
-        gap: 1rem;
-    }
-    @media(max-width: 650px){
-        flex-direction: column;
-        
-    }
-    
 }
+
 .Plan-content-bottom-card{
     width: 33%;
-    @media(max-width:650px){
-        margin: auto;
-        width: 100%;
-    }
-    
 }
+
 .Plan-content-bottom img{
     margin: 40px auto;
 }

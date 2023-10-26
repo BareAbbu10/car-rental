@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import '../Styles/Hero.css';
+import "../Styles/Hero-responsive.css"
 import Bg from "../media/hero-bg.png";
 import Car from "../media/Car-Hero-removebg-preview.png";
 

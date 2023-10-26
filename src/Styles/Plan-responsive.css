@@ -1,0 +1,22 @@
+/* MW: 920px */
+
+@media (max-width: 920px) {
+  .Plan-content-bottom {
+    gap: 1rem;
+  }
+}
+
+
+
+
+/* MW: 650px */
+
+@media (max-width: 650px) {
+  .Plan-content-bottom {
+    flex-direction: column;
+  }
+  .Plan-content-bottom-card {
+    margin: auto;
+    width: 100%;
+  }
+}

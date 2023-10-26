@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import '../Styles/Navbar.css';
+import "../Styles/Navbar-responsive.css"
 
 export default class Navbar extends Component {
   constructor() {
