@@ -40,7 +40,7 @@
     width: 100px;
     align-self: center;
   }
-  input{
+  .box-form-fields input{
     width: 150% !important;
   }
 }
