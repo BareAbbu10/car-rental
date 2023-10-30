@@ -40,6 +40,9 @@
     width: 100px;
     align-self: center;
   }
+  input{
+    width: 100% !important;
+  }
 }
 
 
