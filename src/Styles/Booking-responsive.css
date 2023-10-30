@@ -8,6 +8,9 @@
     font-size: 1rem;
     margin-bottom: 1rem;
   }
+  .Booking-btn{
+    width: 10rem;
+  }
   .box-form {
     gap: 10px;
     display: flex;
@@ -47,9 +50,22 @@
 
 
 
+
+
+@media(max-width: 600px){
+.box-form-fields input{
+width: 100% !important;
+}
+}
+
+
 /* MW: 500px */
 
 @media(max-width: 500px){
     .Booking-content{
     padding: 0.5rem 1rem 1rem 1rem;
-}}
+}
+.box-form-fields input{
+  width: 100% !important;
+}
+}
