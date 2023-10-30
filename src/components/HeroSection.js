@@ -13,7 +13,7 @@ export default class HeroSection extends Component {
         <div className="d-flex Hero-left">
           <h5 style={{ fontWeight: "700" }}>Plan your trip with us</h5>
           <h1 style={{ fontWeight: "800" }}>
-            With <span>us</span> your trip remains problem-free.
+            With <span>us</span> your trip remains problem free.
           </h1>
           <p>
             Your dream cars at Unbeatable prices, unlimited miles, flexible
