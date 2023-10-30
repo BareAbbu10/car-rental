@@ -34,6 +34,10 @@
   flex-direction: column;
 }
 
+.box-form-fields input{
+  width: 100%;
+}
+
 select {
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   height: 40px;
