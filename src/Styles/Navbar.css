@@ -1,7 +1,15 @@
+.Navbar-Section{
+  background-color: #fafafa;
+  padding-top: 1px;
+  
+}
+
 .Navbar{
   align-items: center;
-  text-align: center;
+  text-align: center; 
   margin-top: 1rem!important;
+  position: relative;
+  z-index: 9999;
 }
 
 .icons-navbar {
@@ -16,6 +24,8 @@
 .links-nav {
   padding: 4px 12px;
   border-radius: 10px;
+   
+
 }
 
 .links-nav:hover {
@@ -29,7 +39,7 @@
   color: white;
   border-radius: 3px;
   background-color: #d938d9;
-  box-shadow: 0 10px 15px 0 rgba(61, 27, 20, 0.35);
+  box-shadow: 0 10px 15px 0 rgba(61, 27, 20, 0.35); 
 }
 
 .sign-btn {

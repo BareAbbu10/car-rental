@@ -24,7 +24,7 @@ function PickCar() {
           <div className="pick-container">
             <div className="pick-container__title">
               <h4>Vehicle Models</h4>
-              <h1 style={{fontSize:"2.8rem"}}><strong>Our rental fleet</strong></h1>
+              <h1 style={{fontSize:"2.6rem"}}><strong>Our rental fleet</strong></h1>
               <p>
                 Choose from a variety of our amazing vehicles to rent for your
                 next adventure or business trip
