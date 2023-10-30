@@ -45,7 +45,7 @@ export default class Navbar extends Component {
 
     return (
       <section className="Navbar-Section">
-        <div className="Navbar container d-flex justify-content-between my-3" style={{ height: this.state.NavHeight }}>
+        <div className="Navbar container d-flex justify-content-between" style={{ height: this.state.NavHeight }}>
           <div>
             <h1 style={{ margin: "auto" }}>Logo</h1>
           </div>

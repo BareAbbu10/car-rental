@@ -19,7 +19,7 @@ export default class HeroSection extends Component {
             Your dream cars at Unbeatable prices, unlimited miles, flexible
             pick-up options and much more.{" "}
           </p>
-          <div className="btn-hero d-flex my-3">
+          <div className="btn-hero d-flex">
             <button className=" btn-Hero-1">
               <strong>Book Ride</strong> &nbsp;
               {
