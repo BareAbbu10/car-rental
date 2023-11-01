@@ -9,7 +9,7 @@ import { IconCaravan } from "@tabler/icons-react";
 export default class ChooseSection extends Component {
   render() {
     return (
-      <section className="choose-section">
+      <section className="choose-section" id="Choose">
         <div className="container">
           <div className="choose-container">
             <img

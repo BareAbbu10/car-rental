@@ -4,7 +4,7 @@ import '../Styles/Banner.css';
 export default class BannerSection extends Component {
   render() {
     return (
-      <section className="Banner-section">
+      <section className="Banner-section" id="Banner">
         <div className="container">
           <div className="banner-content">
             <div className="banner-content-text">

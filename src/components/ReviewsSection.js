@@ -8,7 +8,7 @@ import joe from "../media/Joe.jpg";
 export default class ReviewsSection extends Component {
   render() {
     return (
-      <section className="Review-section">
+      <section className="Review-section" id="Review">
         <div className="container">
           <div className="Review-content">
             <div className="Review-content-top d-flex">

@@ -5,7 +5,7 @@ import "../Styles/FAQ-responsive.css"
 export default class FaqSection extends Component {
   render() {
     return (
-      <section className="Faq-Section">
+      <section className="Faq-Section" id="FAQ">
         <div className="container">
           <div className="faq-content">
             <div className="faq-content-top d-flex">

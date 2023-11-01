@@ -57,7 +57,7 @@ export default class BookingSection extends Component {
 
   render() {
     return (
-      <section className="Booking-Section">
+      <section className="Booking-Section" id="Booking">
         <div className="Booking-box container">
           <div className="Booking-content-box">
             <div className="Booking-content">

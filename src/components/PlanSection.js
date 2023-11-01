@@ -7,7 +7,7 @@ import HappyDriver from "../media/1656318.jpg"
 export default class PlanSection extends Component {
   render() {
     return (
-      <section className="Plan-Section">
+      <section className="Plan-Section" id="Plan">
         <div className="container">
           <div className="Plan-content">
             <div className="Plan-content-top">
