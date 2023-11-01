@@ -51,7 +51,7 @@ export default class Navbar extends Component {
             <img className="Logo" alt="Logo" src={Logo} style={{ margin: "auto" }}/>
           </div>
           <ul className="icons-navbar d-flex" style={{ visibility: !isSmallScreen || isSignInVisible ? "visible" : "hidden" }} id="icon-navbar">
-            <li className="fadeIn links-nav"><a href="#">Home</a></li>
+            <li className="fadeIn links-nav"><a href="#Hero">Home</a></li>
             <li className="fadeIn links-nav"><a href="#Booking">Booking</a></li>
             <li className="fadeIn links-nav"><a href="#Pick">Vehicles</a></li>
             <li className="fadeIn links-nav"><a href="#Choose">About</a></li>

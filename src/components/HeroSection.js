@@ -7,7 +7,7 @@ import Car from "../media/Car-Hero-removebg-preview.png";
 export default class HeroSection extends Component {
   render() {
     return (
-      <section className="Hero-section">
+      <section className="Hero-section" id="Hero">
       <div className="Hero-content d-flex container" id="Home">
         <img src={Bg} alt="BG" className="Hero-bg" />
         <div className="d-flex Hero-left">
