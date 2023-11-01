@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import '../Styles/Navbar.css';
 import "../Styles/Navbar-responsive.css"
+import Logo from "../media/Logo-Rental.png"
 
 export default class Navbar extends Component {
   constructor() {
@@ -47,7 +48,7 @@ export default class Navbar extends Component {
       <section className="Navbar-Section">
         <div className="Navbar container d-flex justify-content-between" style={{ height: this.state.NavHeight }}>
           <div>
-            <h1 style={{ margin: "auto" }}>Logo</h1>
+            <img className="Logo" alt="Logo" src={Logo} style={{ margin: "auto" }}/>
           </div>
           <ul className="icons-navbar d-flex" style={{ visibility: !isSmallScreen || isSignInVisible ? "visible" : "hidden" }} id="icon-navbar">
             <li className="fadeIn links-nav">Home</li>

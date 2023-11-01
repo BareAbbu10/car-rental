@@ -3,7 +3,13 @@
   padding-top: 1px;
   
 }
-
+.Logo{
+  width: 100px;
+}
+.Logo:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
 .Navbar{
   align-items: center;
   text-align: center; 

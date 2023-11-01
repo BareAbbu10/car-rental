@@ -6,6 +6,9 @@
     text-align: center;
     padding: 4px 6px;
   }
+  .Logo{
+    width: 80px;
+  }
 }
 
 
@@ -45,6 +48,9 @@
     font-size: large;
     text-align: center;
    }
+   .Navbar{
+    margin-top: 0.5rem !important;
+   }
   }
 
 
@@ -65,6 +71,7 @@
     margin-top: 5px;
   }
 }
+
 
 @media (max-width: 950px) and (max-height: 550px) {
     .icons-navbar{
