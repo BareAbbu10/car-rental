@@ -7,7 +7,7 @@ export default class Footer extends Component {
     return (
             <>
               <footer className='Footer' id='Contact'>
-                <div className="container">
+                <div className="container-none">
                   <div className="footer-content d-flex">
                     <ul className="footer-content__1 footer-content-box">
                       <li>
