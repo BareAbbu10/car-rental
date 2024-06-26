@@ -12,6 +12,7 @@
   padding: 4rem 4.5rem 5rem 5.5rem;
   position: relative;
   width: 100%;
+  user-select: none;
 }
 
 .Booking-content h2 {

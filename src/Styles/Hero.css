@@ -8,6 +8,7 @@
 
 .Hero-section{
 background-color: #fafafa;
+user-select: none;
 }
 
 #Home {

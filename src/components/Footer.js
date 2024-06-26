@@ -71,7 +71,7 @@ export default class Footer extends Component {
                       <li>Sun: Closed</li>
                     </ul>
         
-                    <ul className="footer-content__2 footer-content-box">
+                    <ul className="footer-content__2 footer-content__4 footer-content-box">
                       <li>Subscription</li>
                       <li>
                         <p>Subscribe your Email address for latest news & updates.</p>

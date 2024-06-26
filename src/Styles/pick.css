@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 80px;
+  user-select: none;
 }
 
 .pick-container__car-content {
